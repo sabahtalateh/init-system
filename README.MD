@@ -8,7 +8,16 @@
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
 
 ## Configurin ITerm2
+Create config folder
+```bash
+mkdir ~/ITerm2.Config
+```
+Download settings file into folder
+```
 
+```
+
+![Alt text](image.png)
 
 ## Configuring shell
 At `~/.zshrc` file add following line
