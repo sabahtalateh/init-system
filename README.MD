@@ -40,3 +40,6 @@ export PS1="%{[36m%}%c%{[00m%} $(git_prompt_info)"
 # integrations when zsh is runnning as VS Code terminal
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
 ```
+
+## Next
+- [VS Code](https://github.com/sabahtalateh/vscode-settings)
