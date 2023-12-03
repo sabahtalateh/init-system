@@ -7,7 +7,7 @@
 - [oh-my-zsh](https://ohmyz.sh/#install) zsh package manager
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
 
-## Configurin ITerm2
+## Configure ITerm2
 Create config folder
 ```bash
 mkdir ~/ITerm2.Config
@@ -21,7 +21,7 @@ curl -o ~/ITerm2.Config/com.googlecode.iterm2.plist https://raw.githubuserconten
 Set folder as config folder (Preferences -> General -> Preferences)
 ![Alt text](image.png)
 
-## Configuring shell
+## Configure shell
 At `~/.zshrc` file add following line
 
 ```
