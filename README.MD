@@ -12,11 +12,13 @@ Create config folder
 ```bash
 mkdir ~/ITerm2.Config
 ```
+
 Download settings file into folder
 ```
-
+curl -o ~/ITerm2.Config/com.googlecode.iterm2.plist https://raw.githubusercontent.com/sabahtalateh/init-system/main/com.googlecode.iterm2.plist
 ```
 
+Set folder as config folder
 ![Alt text](image.png)
 
 ## Configuring shell
