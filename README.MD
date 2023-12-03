@@ -18,7 +18,7 @@ Download settings file into folder
 curl -o ~/ITerm2.Config/com.googlecode.iterm2.plist https://raw.githubusercontent.com/sabahtalateh/init-system/main/com.googlecode.iterm2.plist
 ```
 
-Set folder as config folder
+Set folder as config folder (Preferences -> General -> Preferences)
 ![Alt text](image.png)
 
 ## Configuring shell
