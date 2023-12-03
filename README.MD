@@ -1,10 +1,14 @@
 # Configuring just installed MacOS
 
 ## Install tools
-- [Brew](https://brew.sh) package manager
+- [ITerm2](https://iterm2.com)
+- [brew](https://brew.sh) package manager
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos) shell
 - [oh-my-zsh](https://ohmyz.sh/#install) zsh package manager
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
+
+## Configurin ITerm2
+
 
 ## Configuring shell
 At `~/.zshrc` file add following line
