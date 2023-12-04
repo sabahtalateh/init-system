@@ -1,11 +1,27 @@
 # Configuring just installed MacOS
 
 ## Install tools
+- [Karabiner](https://karabiner-elements.pqrs.org)
 - [ITerm2](https://iterm2.com)
 - [brew](https://brew.sh) package manager
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos) shell
 - [oh-my-zsh](https://ohmyz.sh/#install) zsh package manager
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
+
+## Configure Karabiner
+Create config folder
+```bash
+mkdir -p ~/.confing/karabiner
+```
+
+```bash
+mkdir -p ~/.confing/karabiner
+```
+
+Download `karabiner.json` into folder
+```bash
+curl -o ~/.confing/karabiner/karabiner.json https://raw.githubusercontent.com/sabahtalateh/init-system/main/karabiner.json
+```
 
 ## Configure ITerm2
 Create config folder
@@ -13,7 +29,7 @@ Create config folder
 mkdir ~/ITerm2.Config
 ```
 
-Download settings file into folder
+Download `com.googlecode.iterm2.plist` into folder
 ```
 curl -o ~/ITerm2.Config/com.googlecode.iterm2.plist https://raw.githubusercontent.com/sabahtalateh/init-system/main/com.googlecode.iterm2.plist
 ```
