@@ -16,7 +16,7 @@ mkdir -p ~/.confing/karabiner
 
 Download `karabiner.json` into folder
 ```bash
-curl -o ~/.confing/karabiner/karabiner.json https://raw.githubusercontent.com/sabahtalateh/init-system/main/karabiner.json
+curl -o ~/.config/karabiner/karabiner.json https://raw.githubusercontent.com/sabahtalateh/init-system/main/karabiner.json
 ```
 
 ## Configure ITerm2
