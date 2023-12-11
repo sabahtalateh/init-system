@@ -7,6 +7,7 @@
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos) shell
 - [oh-my-zsh](https://ohmyz.sh/#install) zsh package manager
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
+- [zsh-direnv](https://github.com/ptavares/zsh-direnv) direnv for zsh (install direnv from brew manually)
 
 ## Configure Karabiner
 Create config folder
@@ -40,7 +41,7 @@ At `~/.zshrc` file add following line
 # zsh config
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting) 
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-direnv) 
 source $ZSH/oh-my-zsh.sh
 
 # prompt
