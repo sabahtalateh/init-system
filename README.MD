@@ -8,6 +8,7 @@
 - [oh-my-zsh](https://ohmyz.sh/#install) zsh package manager
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
 - [zsh-direnv](https://github.com/ptavares/zsh-direnv) direnv for zsh (install direnv from brew manually)
+- [lf](https://github.com/gokcehan/lf) light console file manager
 
 ## Configure Karabiner
 Create config folder
@@ -52,6 +53,32 @@ export PS1="%{[36m%}%c%{[00m%} $(git_prompt_info)"
 
 # integrations when zsh is runnning as VS Code terminal
 [[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
+
+# vscode config
+alias codeconf='code -n ~/Library/Application\ Support/Code/User/'
+
+# lf
+alias lf=lfcd
+lfcd() {
+    cd "$(command lf -print-last-dir "$@")"
+}
+```
+
+## Configure lf
+
+Create config dir
+
+```bash
+mkdir -p ~/.config/lf
+```
+
+At `~/.config/lf/lfrc` put
+
+```
+set hidden false
+
+map <enter> open
+map <backspace2> updir
 ```
 
 ## Next
