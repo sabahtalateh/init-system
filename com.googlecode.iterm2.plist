@@ -86402,6 +86402,19 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x60-0x100000-0x32</key>
+		<dict>
+			<key>Action</key>
+			<integer>1</integer>
+			<key>Apply Mode</key>
+			<integer>0</integer>
+			<key>Escaping</key>
+			<integer>2</integer>
+			<key>Text</key>
+			<string></string>
+			<key>Version</key>
+			<integer>2</integer>
+		</dict>
 		<key>0x7b-0x120000-0x21</key>
 		<dict>
 			<key>Action</key>
@@ -86412,24 +86425,6 @@
 			<string></string>
 			<key>Version</key>
 			<integer>0</integer>
-		</dict>
-		<key>0x7d-0x120000-0x1e</key>
-		<dict>
-			<key>Action</key>
-			<integer>0</integer>
-			<key>Label</key>
-			<string></string>
-			<key>Text</key>
-			<string></string>
-			<key>Version</key>
-			<integer>0</integer>
-		</dict>
-		<key>0x9-0x40000</key>
-		<dict>
-			<key>Action</key>
-			<integer>32</integer>
-			<key>Text</key>
-			<string></string>
 		</dict>
 		<key>0xf700-0x300000</key>
 		<dict>
@@ -86795,6 +86790,8 @@
 			<string>No</string>
 			<key>Custom Directory</key>
 			<string>No</string>
+			<key>Custom Locale</key>
+			<string>en_US.UTF-8</string>
 			<key>Default Bookmark</key>
 			<string>No</string>
 			<key>Description</key>
@@ -87197,10 +87194,12 @@
 			</dict>
 			<key>Send Code When Idle</key>
 			<false/>
+			<key>Set Local Environment Vars</key>
+			<integer>2</integer>
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
-			<false/>
+			<true/>
 			<key>Smart Cursor Color</key>
 			<true/>
 			<key>Sync Title</key>
