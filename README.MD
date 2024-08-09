@@ -10,7 +10,7 @@
 - [zsh-direnv](https://github.com/ptavares/zsh-direnv) direnv for zsh (install direnv from brew manually)
 - [lf](https://github.com/gokcehan/lf) light console file manager
 
-## Configure Karabiner
+## Configure `Karabiner`
 Create config folder
 ```bash
 mkdir -p ~/.confing/karabiner
@@ -21,7 +21,7 @@ Download `karabiner.json` into folder
 curl -o ~/.config/karabiner/karabiner.json https://raw.githubusercontent.com/sabahtalateh/init-system/main/karabiner.json
 ```
 
-## Configure ITerm2
+## Configure `ITerm2`
 Create config folder
 ```bash
 mkdir ~/ITerm2.Config
@@ -35,7 +35,7 @@ curl -o ~/ITerm2.Config/com.googlecode.iterm2.plist https://raw.githubuserconten
 Set folder as config folder (Preferences -> General -> Preferences)
 ![Alt text](image.png)
 
-## Configure shell
+## Configure `shell`
 At `~/.zshrc` file add following line
 
 ```
