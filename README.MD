@@ -83,3 +83,11 @@ map <backspace2> updir
 
 ## Next
 - [VS Code](https://github.com/sabahtalateh/vscode-settings)
+
+## Tips
+### `XCode` previews not works after cleaning `~/Library/Developer`
+Run 
+```
+sudo xcode-select -s /Applications/Xcode.app
+xcrun simctl --set previews delete all
+```
