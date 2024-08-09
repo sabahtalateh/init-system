@@ -64,7 +64,7 @@ lfcd() {
 }
 ```
 
-## Configure lf
+## Configure `lf`
 
 Create config dir
 
