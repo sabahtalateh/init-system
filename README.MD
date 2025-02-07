@@ -8,7 +8,7 @@
 - [oh-my-zsh](https://ohmyz.sh/#install) zsh package manager
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
 - [zsh-direnv](https://github.com/ptavares/zsh-direnv) direnv for zsh (install direnv from brew manually)
-- [lf](https://github.com/gokcehan/lf) light console file manager
+- [lf](https://github.com/gokcehan/lf) lightweight console file manager
 
 ## Configure `Karabiner`
 Create config folder
