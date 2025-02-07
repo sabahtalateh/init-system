@@ -1,9 +1,9 @@
 # Configuring just installed MacOS
 
 ## Install tools
+- [brew](https://brew.sh) package manager
 - [Karabiner](https://karabiner-elements.pqrs.org) keys remapper
 - [ITerm2](https://iterm2.com) terminal
-- [brew](https://brew.sh) package manager
 - [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH#macos) shell
 - [oh-my-zsh](https://ohmyz.sh/#install) zsh package manager
 - [fzf](https://github.com/junegunn/fzf#using-git) convinient recent files search
